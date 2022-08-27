@@ -6,11 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+        var fraction = prompt('请输入你的分数')
+        if(fraction > 90){alert('A');}
+        else if(fraction >= 80 && fraction < 90){alert('B');}
+        else if(fraction >= 70 && fraction < 80){alert('C');}
+        else if(fraction >= 60 && fraction < 70){alert('D');}
+        else if(fraction < 60){alert('E');}
+
+        // var money = prompt('班长口袋的钱');
+        // if (money >= 2000){alert('请大家吃西餐')}
+        // else if(money >= 1500 && money < 2000){alert('请大家吃快餐')}
+        // else if(money < 1500 && money >= 1000){alert('请大家喝饮料')}
+        // else if(money < 1000 && money >= 500){alert('请大家吃棒棒糖')}
+        // else{alert('下次把钱带够')};
+
+        // var day = prompt('请输入星期数字');
+        // switch(day){
+        //     case '1':
+        //     alert('星期一');
+        //     break;
+        //     case '2':
+        //     alert('星期二');
+        //     break;
+        //     case '3':
+        //     alert('星期三');
+        //     break;
+        //     case '4':
+        //     alert('星期四');
+        //     break;
+        //     case '5':
+        //     alert('星期五');
+        //     break;
+        //     case '6':
+        //     alert('星期六');
+        //     break;
+        //     case '7':
+        //     alert('星期日');
+        //     break;
+        // }
+
+        // var num = prompt('请输入数字');
+        // var result = num % 2 == 0 ? '偶数' : '奇数';
+        // alert(result);
+    
+        // var numA = prompt('请输入数字a'),
+        //     numB = prompt('请输入数字b');
+        // var result = numA >= numB ? numA : numB;
+        // alert(result);
+    
+        // var time = prompt ('请输入时间');
+        // if (time < 12 && time >= 6)
+        // {alert('上午好');}
+        // else if(time == 12)
+        // {alert('中午好');}
+        // else if(time >= 12 && time <= 18)
+        // {alert('下午好');}
+        // if (time < 24 && time >= 18)
+        // {alert('晚上好');}
+        // if (time >= 0 && time < 6)
+        // {alert('半夜好');}
+
+        // 20220826练习
+        // var num1 = 0.1;
+        // var num2 = 0.1;
+        // console.log(num1 == num2);
+
+        // for (var aS = 1;aS <= 100;aS++) 
+        // {console.log('test');}
+
+        // var num1 = '1';
+        // var num2 = '2';
+        // console.log(num1 -1 + parseInt(num2));
+
+        // console.log(Infinity);
+        // var num = 1;
+        // console.log(isNaN(num));
+        // console.log(true - 1);
+        // console.log(null * 10);
+        // var test01 = 1 + undefined;
+        // console.log(test01);
+        // console.log(typeof test01);
+
         // 20220824练习
-        var name = prompt ('please enter your name:');
-        var nameWin = 'jack';
-        if (name == nameWin){alert ('you win!') }
-        else{alert ('sorry')};
+        // var name = prompt ('please enter your name:');
+        // var nameWin = 'jack';
+        // if (name == nameWin){alert ('you win!') }
+        // else{alert ('sorry')};
 
         // var year = prompt ('请输入要检测的年份:');
         // if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) { alert (year+'是闰年') }
